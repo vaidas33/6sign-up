@@ -29,24 +29,37 @@ body > div {
         color:white;
         font-size: 12px;
         margin-left:30px;
+        text-decoration-line: underline;
     }
 .signUp {
     margin:auto;
     float: right;
     background-color: white;
     display:inline-block;
-    justify-content: center;
     width: 50%;
     height:400px;
     margin-right: 10%;
     margin-top:100px;
 }
+    .close{
+        display: inline-block;
+        width:95%;
+        text-align:right;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
     .signUp > form {
         display:inline-block;
+        margin-left: 60px;
     }
-    .signUp > input {
+        .signUp > form > input {
         display:inline-block;
-    }
-    .signUp > label {
-        border:none;
-    }
+        width:90%;
+        border: 0;
+        border-bottom: 1px solid black;
+        padding:0;
+        }
+        .signUp > form > label {
+        display:inline-block;
+        width:100%;
+        }
