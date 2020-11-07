@@ -1,3 +1,52 @@
-body {
-    background-image: linear-gradient(to right, red, green);
+body > div {
+    display:inline-block;
+    background-image: linear-gradient(to top right, #541D66, #58B3C4);
+    width: 800px;
+    height:600px;
+    margin-left: calc((100% - 800px) / 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.content {
+    margin:auto;
+    float: left;
+    background-image: linear-gradient(to top right, #541D66, #58B3C4);
+    display:inline-block;
+    justify-content: center;
+    width: 30%;
+    height:300px;
+    margin-left:10%;
+    margin-top:150px;
+}
+    h1{
+        display:inline-block;
+        width: 100%;
+        color: white;
+        margin-left:30px;
+        margin-bottom:200px;
+    }
+    p{
+        display:inline-block;
+        color:white;
+        font-size: 12px;
+        margin-left:30px;
+    }
+.signUp {
+    margin:auto;
+    float: right;
+    background-color: white;
+    display:inline-block;
+    justify-content: center;
+    width: 50%;
+    height:400px;
+    margin-right: 10%;
+    margin-top:100px;
+}
+    .signUp > form {
+        display:inline-block;
+    }
+    .signUp > input {
+        display:inline-block;
+    }
+    .signUp > label {
+        border:none;
+    }
