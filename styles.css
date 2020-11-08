@@ -13,16 +13,16 @@ body > div {
     display:inline-block;
     justify-content: center;
     width: 30%;
-    height:300px;
+    height:350px;
     margin-left:10%;
-    margin-top:150px;
+    margin-top:125px;
 }
     h1{
         display:inline-block;
         width: 100%;
         color: white;
         margin-left:30px;
-        margin-bottom:200px;
+        margin-bottom:250px;
     }
     p{
         display:inline-block;
@@ -40,6 +40,7 @@ body > div {
     height:400px;
     margin-right: 10%;
     margin-top:100px;
+    color:#CBCBCB;
 }
     .close{
         display: inline-block;
@@ -54,12 +55,46 @@ body > div {
     }
         .signUp > form > input {
         display:inline-block;
-        width:90%;
+        width:80%;
         border: 0;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #CBCBCB;
         padding:0;
+        margin-bottom: 30px;
         }
         .signUp > form > label {
         display:inline-block;
         width:100%;
+        font-size:12px;
         }
+    .footer {
+        display:inline-block;
+        width:100%;
+    }
+        .started {
+            display:inline-block;
+            width: 45%;  
+            text-align: right;
+            margin-left: 25px;   
+   
+        }
+            .started > a {
+                background-color: #0063DA;
+                text-decoration-line: none;  
+                color:white;
+                padding-left:35px;
+                padding-right:35px;
+                padding-top:5px;
+                padding-bottom:5px;
+                border-radius: 25px;
+            }
+        .signn {
+            display:inline-block;
+            width: 35%;
+            text-align: left;
+            margin-left:15px;
+            font-size:15px;
+        }
+            .signn > a {
+                text-decoration-line: none;
+                color:#0063DA;
+            }
